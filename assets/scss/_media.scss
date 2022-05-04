@@ -1,21 +1,16 @@
-@media (max-width: 1800px) {
-}
-
-@media (max-width: 1400px) {
-  .header {
-    background-position: 50% 130px;
-  }
-}
-
 @media (max-width: 1200px) {
   .container-custom {
     width: 100%;
   }
+
+  .bottles {
+    display: none;
+  }
 }
 
 @media (max-width: 992px) {
-  .header {
-    background-position: 30% 130px;
+  .header-title {
+    font-size: 64px;
   }
 
   .icons {
@@ -32,15 +27,16 @@
       left: 0;
     }
   }
+
+  .btn-action {
+    padding: 14px 50px;
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 768px) {
   .prizes {
     font-size: 18px;
-  }
-
-  .header-title {
-    font-size: 64px;
   }
 
   .prizes-title {
@@ -54,13 +50,14 @@
   .prizes-list:first-child {
     margin-bottom: 40px;
   }
+
+  .btn-action {
+    width: 320px;
+    padding: 12px 20px;
+  }
 }
 
 @media (max-width: 500px) {
-  .header {
-    background-position: 31% 130px;
-  }
-
   .header-title {
     font-size: 38px;
   }
