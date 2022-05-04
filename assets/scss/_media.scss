@@ -58,6 +58,10 @@
 }
 
 @media (max-width: 500px) {
+  .header {
+    background-position: 51%;
+  }
+
   .header-title {
     font-size: 38px;
   }
