@@ -4,8 +4,30 @@
   }
 }
 
+@media (max-width: 1400px) {
+  .container-header {
+    width: 100%;
+  }
+}
+
 @media (max-width: 992px) {
   .header {
     background-position: 30% 130px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    background-position: 31% 130px;
+  }
+
+  .header-title {
+    font-size: 38px;
   }
 }
