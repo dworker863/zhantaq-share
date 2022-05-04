@@ -31,7 +31,7 @@ function styles() {
 
 function scripts() {
   return gulp
-    .src(['./assets/js/common.js'])
+    .src(['assets/libs/jquery-3.6.0.min.js', './assets/js/common.js'])
     .pipe(sourcemaps.init())
     .pipe(uglify())
     .pipe(concat('scripts.min.js'))
