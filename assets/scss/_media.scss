@@ -1,7 +1,4 @@
 @media (max-width: 1800px) {
-  .gt-oil {
-    // display: none;
-  }
 }
 
 @media (max-width: 1400px) {
@@ -11,7 +8,7 @@
 }
 
 @media (max-width: 1200px) {
-  .container-header {
+  .container-custom {
     width: 100%;
   }
 }
@@ -20,11 +17,42 @@
   .header {
     background-position: 30% 130px;
   }
+
+  .icons {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .icons-wrapper {
+    position: relative;
+
+    & > span {
+      position: absolute;
+      top: 0px;
+      left: 0;
+    }
+  }
 }
 
 @media (max-width: 768px) {
+  .prizes {
+    font-size: 18px;
+  }
+
   .header-title {
     font-size: 64px;
+  }
+
+  .prizes-title {
+    font-size: 64px;
+  }
+
+  .prizes-lists {
+    flex-wrap: wrap;
+  }
+
+  .prizes-list:first-child {
+    margin-bottom: 40px;
   }
 }
 
@@ -35,5 +63,21 @@
 
   .header-title {
     font-size: 38px;
+  }
+
+  .prizes {
+    font-size: 16px;
+  }
+
+  .prizes-title {
+    font-size: 38px;
+  }
+
+  .prizes-conditions {
+    margin-bottom: 50px;
+  }
+
+  .program-title {
+    margin-bottom: 20px;
   }
 }

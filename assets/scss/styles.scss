@@ -459,15 +459,16 @@ li {
 
 .icons-wrapper {
   position: relative;
+
+  & > span {
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
 }
 
-.icons {
-  position: absolute;
-  top: -25px;
-  right: 150px;
-  display: flex;
-  justify-content: space-between;
-  width: 250px;
+.radio {
+  margin-left: 20px;
   margin-right: 40px;
 }
 
