@@ -407,12 +407,9 @@ input::-webkit-inner-spin-button {
   position: relative;
   padding-top: 45px;
   padding-bottom: 200px;
-}
-
-.gt-oil {
-  position: absolute;
-  right: 0;
-  top: 0;
+  background-image: url(../images/gtoil-service.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
 }
 
 .prizes-title {
