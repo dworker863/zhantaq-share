@@ -1,3 +1,4 @@
+@import 'vars';
 @import 'fonts';
 @import '../libs/animate.min';
 
@@ -39,6 +40,11 @@ div {
   box-sizing: border-box;
 }
 
+body {
+  font-family: Montserrat, serif;
+  font-size: 24px;
+}
+
 .container {
   width: 1141px;
   margin-left: auto;
@@ -76,6 +82,7 @@ input::-webkit-inner-spin-button {
 }
 
 .header {
+  position: relative;
   width: 100%;
   height: 100vh;
   padding-bottom: 10px;
@@ -381,11 +388,80 @@ input::-webkit-inner-spin-button {
   margin-top: 100px;
   text-transform: uppercase;
   font-size: 86px;
-  color: #00362c;
+  color: $font-color;
 }
 
 .container-header {
   max-width: 1141px;
+}
+
+.prizes {
+  height: 100vh;
+}
+
+.bottles {
+  position: absolute;
+  right: 18%;
+  bottom: -50px;
+  // height: 40px;
+}
+
+.prizes {
+  overflow: visible;
+  position: relative;
+  padding-top: 45px;
+  padding-bottom: 200px;
+}
+
+.gt-oil {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.prizes-title {
+  font-family: Bebas, serif;
+  margin-bottom: 50px;
+  font-size: 72px;
+  color: $font-color;
+}
+
+.prizes-text {
+  margin-bottom: 50px;
+}
+
+.prizes-lists {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.prizes-conditions {
+  margin-bottom: 70px;
+}
+
+.program-title {
+  margin-bottom: 40px;
+}
+
+.prizes-program {
+  margin-bottom: 70px;
+}
+
+.program-text {
+  margin-bottom: 50px;
+}
+
+.text-red {
+  color: #f00e0e;
+}
+
+.note-text {
+  font-weight: 700;
+}
+
+li {
+  margin-top: 15px;
 }
 
 @import 'media';
