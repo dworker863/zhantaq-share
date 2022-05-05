@@ -57,9 +57,42 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   .header {
-    background-position: 51%;
+    margin-top: 0;
+    height: 100vh;
+    background-image: url(../images/header-bg-mobile.png);
+    background-size: cover;
+  }
+
+  .header-logo {
+    a {
+      display: inline-block;
+      padding-top: 10px;
+      height: 100%;
+    }
+
+    img {
+      width: 35px;
+    }
+  }
+
+  .header-logo {
+    height: 100%;
+  }
+
+  .menu-wrapper {
+    top: -30px;
+  }
+
+  .top-line {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 60px;
+
+    .container {
+      height: 100%;
+    }
   }
 
   .header-title {
@@ -68,6 +101,7 @@
 
   .prizes {
     font-size: 16px;
+    padding-bottom: 60px;
   }
 
   .prizes-title {
@@ -80,5 +114,10 @@
 
   .program-title {
     margin-bottom: 20px;
+  }
+
+  .btn-action {
+    bottom: 10%;
+    transform: translate(-50%, 100%);
   }
 }
